@@ -1,0 +1,11 @@
+Приложение установлено успешно.
+Идентификация
+Тест пройдет успешно
+Не удалось удалить приложение 'ru.adengi'. Ошибка: Message: An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'adb_shell' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at http://appium.io/docs/en/2.0/guides/security/
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'adb_shell' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at http://appium.io/docs/en/2.0/guides/security/
+    at getResponseForW3CError (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1143:9)
+    at asyncHandler (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:487:57)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)

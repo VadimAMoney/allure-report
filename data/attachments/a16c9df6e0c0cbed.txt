@@ -1,0 +1,23 @@
+[31m[1mERROR   [0m root:smok.py:314 Ошибка при клике на кнопку с id: ru.adengi:id/buttonSkip: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+Traceback (most recent call last):
+  File "C:\Users\v.tatarnikov\PycharmProjects\PythonProject\smok.py", line 310, in click_button_by_id
+    button = wait.until(EC.presence_of_element_located((AppiumBy.ID, button_id)))
+  File "C:\Users\v.tatarnikov\PycharmProjects\PythonProject\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+[31m[1mERROR   [0m root:smok.py:111 Session ID перед скриншотом: b366c0d7-52be-4eee-9c6f-2c929477f3df
+[31m[1mERROR   [0m root:smok.py:112 Попытка сохранить скриншот: C:\Users\v.tatarnikov\PycharmProjects\PythonProject\screenshots\failures\test_photo_2025-04-03_15-04-04.png
+[31m[1mERROR   [0m root:smok.py:120 Скриншот сохранен: C:\Users\v.tatarnikov\PycharmProjects\PythonProject\screenshots\failures\test_photo_2025-04-03_15-04-04.png
+[31m[1mERROR   [0m root:smok.py:126 Тест упал, но перед повторным выбросом исключения делаем паузу...

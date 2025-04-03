@@ -1,0 +1,9 @@
+ Очистка скриншотов...
+🗑 Удалён файл: screenshots\failures\test_field_value_edit_2025-04-03_14-59-00.png
+🗑 Удалён файл: screenshots\failures\test_kp_2025-04-03_15-10-38.png
+🗑 Удалён файл: screenshots\failures\test_photo_2025-04-03_15-04-04.png
+🗑 Удалён файл: screenshots\failures\test_repayments_2025-04-03_15-13-29.png
+🗑 Удалён файл: screenshots\failures\test_replay_2025-04-03_15-15-57.png
+🗑 Удалён файл: screenshots\manual\before_email_name_2025-04-03_14-58-32.png
+🗑 Удалён файл: screenshots\manual\before_email_name_2025-04-03_15-01-33.png
+🗑 Удалён файл: screenshots\manual\before_email_name_2025-04-03_15-03-08.png

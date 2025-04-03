@@ -1,0 +1,4 @@
+[31m[1mERROR   [0m root:smok.py:111 Session ID перед скриншотом: 03c9da4a-6ac1-4dcf-abdb-73ed98baa0f0
+[31m[1mERROR   [0m root:smok.py:112 Попытка сохранить скриншот: C:\Users\v.tatarnikov\PycharmProjects\PythonProject\screenshots\failures\test_field_value_edit_2025-04-03_14-59-00.png
+[31m[1mERROR   [0m root:smok.py:120 Скриншот сохранен: C:\Users\v.tatarnikov\PycharmProjects\PythonProject\screenshots\failures\test_field_value_edit_2025-04-03_14-59-00.png
+[31m[1mERROR   [0m root:smok.py:126 Тест упал, но перед повторным выбросом исключения делаем паузу...

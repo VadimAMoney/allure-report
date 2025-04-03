@@ -1,0 +1,13 @@
+ Очистка скриншотов...
+🗑 Удалён файл: screenshots\failures\test_address_2025-04-03_14-15-19.png
+🗑 Удалён файл: screenshots\failures\test_authorization_2025-04-03_14-22-31.png
+🗑 Удалён файл: screenshots\failures\test_busyness_2025-04-03_14-16-21.png
+🗑 Удалён файл: screenshots\failures\test_field_value_edit_2025-04-03_14-14-12.png
+🗑 Удалён файл: screenshots\failures\test_kp_2025-04-03_14-19-57.png
+🗑 Удалён файл: screenshots\failures\test_passport_2025-04-03_14-14-47.png
+🗑 Удалён файл: screenshots\failures\test_photo_2025-04-03_14-17-42.png
+🗑 Удалён файл: screenshots\failures\test_repayments_2025-04-03_14-20-48.png
+🗑 Удалён файл: screenshots\failures\test_replay_2025-04-03_14-21-40.png
+🗑 Удалён файл: screenshots\failures\test_snils_2025-04-03_14-18-34.png
+🗑 Удалён файл: screenshots\failures\test_take_2025-04-03_14-19-06.png
+Приложение установлено успешно.

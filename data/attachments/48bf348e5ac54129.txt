@@ -1,0 +1,55 @@
+[31m[1mERROR   [0m root:smok.py:314 Ошибка при клике на кнопку с id: ru.adengi:id/buttonSkip: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\jsonwp-proxy\proxy.js:359:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.doFindElementOrEls (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\lib\commands\find.js:40:5)
+    at doFind (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:47:17)
+    at wrappedCondFn (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\timeout.ts:141:14)
+    at spin (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:219:20)
+    at spin (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at waitForCondition (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:236:10)
+    at AndroidUiautomator2Driver.implicitWaitForCondition (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\timeout.ts:143:12)
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:70:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+Traceback (most recent call last):
+  File "C:\Users\v.tatarnikov\PycharmProjects\PythonProject\smok.py", line 310, in click_button_by_id
+    button = wait.until(EC.presence_of_element_located((AppiumBy.ID, button_id)))
+  File "C:\Users\v.tatarnikov\PycharmProjects\PythonProject\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\v.tatarnikov\PycharmProjects\PythonProject\.venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\v.tatarnikov\PycharmProjects\PythonProject\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\v.tatarnikov\PycharmProjects\PythonProject\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\v.tatarnikov\PycharmProjects\PythonProject\.venv\Lib\site-packages\appium\webdriver\errorhandler.py", line 125, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\jsonwp-proxy\proxy.js:359:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.doFindElementOrEls (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\lib\commands\find.js:40:5)
+    at doFind (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:47:17)
+    at wrappedCondFn (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\timeout.ts:141:14)
+    at spin (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:219:20)
+    at spin (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at waitForCondition (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:236:10)
+    at AndroidUiautomator2Driver.implicitWaitForCondition (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\timeout.ts:143:12)
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:70:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+[31m[1mERROR   [0m root:smok.py:111 Session ID перед скриншотом: d0007196-c654-4cb0-ba2f-734ba50093e6
+[31m[1mERROR   [0m root:smok.py:112 Попытка сохранить скриншот: C:\Users\v.tatarnikov\PycharmProjects\PythonProject\screenshots\failures\test_passport_2025-04-03_14-59-46.png
+[31m[1mERROR   [0m root:smok.py:122 Ошибка при создании скриншота: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+    at UIA2Proxy.command (C:\Users\v.tatarnikov\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\jsonwp-proxy\proxy.js:359:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.getScreenshot (C:\Users\v.tatarnikov\.appium\node_modules\appium-uiautomator2-driver\lib\commands\screenshot.js:42:5)
+[31m[1mERROR   [0m root:smok.py:126 Тест упал, но перед повторным выбросом исключения делаем паузу...
