@@ -1,0 +1,10 @@
+ Очистка скриншотов...
+🗑 Удалён файл: screenshots\failures\test_kp_2025-04-08_11-49-07.png
+🗑 Удалён файл: screenshots\failures\test_passport_2025-04-08_11-41-51.png
+🗑 Удалён файл: screenshots\failures\test_photo_2025-04-08_11-45-40.png
+🗑 Удалён файл: screenshots\failures\test_repayments_2025-04-08_11-50-17.png
+🗑 Удалён файл: screenshots\failures\test_replay_2025-04-08_11-52-56.png
+🗑 Удалён файл: screenshots\failures\test_snils_2025-04-08_11-47-02.png
+🗑 Удалён файл: screenshots\failures\test_take_2025-04-08_11-48-22.png
+🗑 Удалён файл: screenshots\manual\before_email_name_2025-04-08_11-43-12.png
+🗑 Удалён файл: screenshots\manual\before_email_name_2025-04-08_11-44-21.png
